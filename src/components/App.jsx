@@ -1,7 +1,8 @@
-import { Profile } from "./Profile";
-import { Statistics } from "./Statistics";
-import { Friends } from "./Friends";
-import { TransactionHistory } from "./TransactionHistory";
+import { Profile } from "./Profile/Profile";
+import { Statistics } from "./Statistics/Statistics";
+import { Friends } from "./FriendsList/Friends";
+import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
+import { GlobalStyle } from "./GlobalStyle";
 import user from '../user.json';
 import data from '../data.json'
 import friends from '../friends.json'
@@ -22,7 +23,7 @@ export const App = () => {
       />
       <Friends friends={friends} />
       <TransactionHistory transactions={transactions} />
-      
+      <GlobalStyle/>
     </div>
   );
 };

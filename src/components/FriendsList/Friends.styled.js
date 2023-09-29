@@ -9,7 +9,6 @@ export const FriendsList = styled.ul`
   justify-content: center;
 `;
 export const FriendItem = styled.li`
-  list-style: none;
   display: flex;
   gap: 10px;
   align-items: center;

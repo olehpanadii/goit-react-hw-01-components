@@ -1,4 +1,5 @@
-import { InfoItem, InfoList, TitleText, TitleWrapper, Wrapper, getRandomHexColor } from "./Statistics.styled";
+import { InfoItem, InfoList, TitleText, TitleWrapper, Wrapper, } from "./Statistics.styled";
+import { getRandomHexColor } from "components/Helper";
 
 export const Statistics = ({ stats, title }) => (
   <Wrapper>
